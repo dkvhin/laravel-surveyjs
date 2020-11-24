@@ -13,6 +13,7 @@ Vue.use(Vuetify)
 Vue.component('survey-show', './components/SurveyShow.vue')
 
 new Vue({
+    vuetify : new Vuetify(),
     router,
     data () {
         return {

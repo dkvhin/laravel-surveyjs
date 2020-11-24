@@ -10,7 +10,7 @@
                 :headers="headers"
                 :items="results"
                 :loading="loading"
-                hide-actions
+                hide-default-footer
                 class="elevation-1"
         >
             <template slot="items" slot-scope="props">

@@ -1,3 +1,10 @@
+/* @license
+Papa Parse
+v5.3.0
+https://github.com/mholt/PapaParse
+License: MIT
+*/
+
 /*!
  * Determine if an object is a Buffer
  *
@@ -41,10 +48,10 @@
  */
 
 /*!
- * SurveyJS Creator v1.1.25
- * (c) Devsoft Baltic O� - http://surveyjs.io/
+ * SurveyJS Creator v1.8.14
+ * (c) 2015-2020 Devsoft Baltic OÜ - http://surveyjs.io/
  * Github: https://github.com/surveyjs/survey-creator
- * License: https://surveyjs.io/Licenses#BuildSurvey
+ * License: https://surveyjs.io/Licenses#SurveyCreator
  */
 
 /*!
@@ -246,6 +253,8 @@ and limitations under the License.
 
 /*! ../../util/rebuildFunctionalSlots */
 
+/*! ../../vendor/knockout-sortable.js */
+
 /*! ../VAutocomplete */
 
 /*! ../VAutocomplete/VAutocomplete */
@@ -344,19 +353,235 @@ and limitations under the License.
 
 /*! ../activatable */
 
+/*! ../adorners/flowpanel-actions */
+
+/*! ../adorners/image */
+
+/*! ../adorners/image-items */
+
+/*! ../adorners/item-editor */
+
+/*! ../adorners/label-editor */
+
+/*! ../adorners/question-actions */
+
+/*! ../adorners/rating-item-editor */
+
+/*! ../adorners/select-items */
+
+/*! ../adorners/select-items-display */
+
+/*! ../adorners/select-items-editor */
+
+/*! ../adorners/title-actions */
+
+/*! ../adorners/title-editor */
+
+/*! ../adorners/title-image */
+
 /*! ../bootable */
 
 /*! ../colorable */
 
 /*! ../comparable */
 
+/*! ../components/element-selector */
+
+/*! ../components/pages-editor */
+
+/*! ../components/results */
+
+/*! ../components/simulator */
+
+/*! ../components/toolbar */
+
+/*! ../components/toolbox */
+
 /*! ../delayable */
+
+/*! ../dragdrophelper */
+
+/*! ../editor */
+
+/*! ../editorLocalization */
+
+/*! ../entries */
+
+/*! ../expressionToDisplayText */
+
+/*! ../extentions */
 
 /*! ../framework */
 
+/*! ../images/YouTube.png */
+
+/*! ../images/start-designing-form.svg */
+
+/*! ../json5 */
+
+/*! ../localization/danish */
+
+/*! ../localization/english */
+
+/*! ../localization/french */
+
+/*! ../localization/german */
+
+/*! ../localization/hungarian */
+
+/*! ../localization/indonesian */
+
+/*! ../localization/italian */
+
+/*! ../localization/korean */
+
+/*! ../localization/norwegian */
+
+/*! ../localization/persian */
+
+/*! ../localization/polish */
+
+/*! ../localization/portuguese */
+
+/*! ../localization/russian */
+
+/*! ../localization/simplified-chinese */
+
+/*! ../localization/spanish */
+
+/*! ../localization/swedish */
+
+/*! ../localization/tajik */
+
+/*! ../localization/traditional-chinese */
+
+/*! ../localization/turkish */
+
+/*! ../main.scss */
+
 /*! ../modes */
 
+/*! ../objectProperty */
+
 /*! ../positionable */
+
+/*! ../property-editors/bindings */
+
+/*! ../property-editors/boolean */
+
+/*! ../property-editors/cells */
+
+/*! ../property-editors/color */
+
+/*! ../property-editors/condition */
+
+/*! ../property-editors/custom */
+
+/*! ../property-editors/default-value */
+
+/*! ../property-editors/dropdown */
+
+/*! ../property-editors/error */
+
+/*! ../property-editors/expression */
+
+/*! ../property-editors/file */
+
+/*! ../property-editors/html-pe */
+
+/*! ../property-editors/item-values */
+
+/*! ../property-editors/modal */
+
+/*! ../property-editors/modal-content */
+
+/*! ../property-editors/multiple-values */
+
+/*! ../property-editors/nested */
+
+/*! ../property-editors/nested-item */
+
+/*! ../property-editors/nested-items */
+
+/*! ../property-editors/number */
+
+/*! ../property-editors/one-selected */
+
+/*! ../property-editors/property-editor */
+
+/*! ../property-editors/restfull */
+
+/*! ../property-editors/string */
+
+/*! ../property-editors/switch */
+
+/*! ../property-editors/text */
+
+/*! ../property-grid/object-editor */
+
+/*! ../property-grid/object-editor-content */
+
+/*! ../property-grid/object-editor-old-table-content */
+
+/*! ../property-grid/object-editor-tab */
+
+/*! ../property-grid/property-grid */
+
+/*! ../propertyEditors/editableObject */
+
+/*! ../propertyEditors/propertyBindingsEditor */
+
+/*! ../propertyEditors/propertyCalculatedValues */
+
+/*! ../propertyEditors/propertyCellsEditor */
+
+/*! ../propertyEditors/propertyConditionEditor */
+
+/*! ../propertyEditors/propertyCustomEditor */
+
+/*! ../propertyEditors/propertyDefaultValueEditor */
+
+/*! ../propertyEditors/propertyEditorBase */
+
+/*! ../propertyEditors/propertyEditorFactory */
+
+/*! ../propertyEditors/propertyHtmlConditionEditor */
+
+/*! ../propertyEditors/propertyItemValuesEditor */
+
+/*! ../propertyEditors/propertyItemsEditor */
+
+/*! ../propertyEditors/propertyMatrixDropdownColumnsEditor */
+
+/*! ../propertyEditors/propertyModalEditor */
+
+/*! ../propertyEditors/propertyMultipleValuesEditor */
+
+/*! ../propertyEditors/propertyNestedPropertyEditor */
+
+/*! ../propertyEditors/propertyOneSelectedEditor */
+
+/*! ../propertyEditors/propertyPagesEditor */
+
+/*! ../propertyEditors/propertyRestfullEditor */
+
+/*! ../propertyEditors/propertyTextItemsEditor */
+
+/*! ../propertyEditors/propertyTriggersEditor */
+
+/*! ../propertyEditors/propertyUrlConditionEditor */
+
+/*! ../propertyEditors/propertyValidatorsEditor */
+
+/*! ../propertyEditors/surveyElementSelector */
+
+/*! ../questionEditors/properties */
+
+/*! ../questionEditors/questionEditor */
+
+/*! ../questionEditors/questionEditorDefinition */
+
+/*! ../questionconverter */
 
 /*! ../registrable */
 
@@ -366,9 +591,33 @@ and limitations under the License.
 
 /*! ../stackable */
 
+/*! ../stylesmanager */
+
+/*! ../surveyHelper */
+
+/*! ../surveyObjects */
+
+/*! ../surveyjsObjects */
+
+/*! ../svgbundle.html */
+
+/*! ../tabs/embed */
+
+/*! ../tabs/json-editor */
+
+/*! ../tabs/logic */
+
+/*! ../tabs/test */
+
+/*! ../tabs/translation */
+
+/*! ../textWorker */
+
 /*! ../themeable */
 
 /*! ../toggleable */
+
+/*! ../toolbox */
 
 /*! ../transitions */
 
@@ -381,6 +630,32 @@ and limitations under the License.
 /*! ../util/props */
 
 /*! ../util/timestamp */
+
+/*! ../utils/accordion */
+
+/*! ../utils/boolean */
+
+/*! ../utils/button */
+
+/*! ../utils/custom-checkbox.scss */
+
+/*! ../utils/custom-select.scss */
+
+/*! ../utils/ddmenu.scss */
+
+/*! ../utils/designer-container */
+
+/*! ../utils/designer-h-container */
+
+/*! ../utils/dropdown */
+
+/*! ../utils/splitter */
+
+/*! ../utils/survey-widget */
+
+/*! ../utils/svg-icon */
+
+/*! ../utils/utils */
 
 /*! ./../../mixins/colorable */
 
@@ -850,13 +1125,29 @@ and limitations under the License.
 
 /*! ./_grid.sass */
 
+/*! ./accordion.scss */
+
+/*! ./adorners/item-editor */
+
 /*! ./af */
 
 /*! ./application */
 
 /*! ./ar */
 
+/*! ./bindings.html */
+
+/*! ./bindings.scss */
+
+/*! ./boolean.html */
+
+/*! ./boolean.scss */
+
 /*! ./breakpoint */
+
+/*! ./button.html */
+
+/*! ./button.scss */
 
 /*! ./ca */
 
@@ -864,33 +1155,87 @@ and limitations under the License.
 
 /*! ./calendar-with-events.sass */
 
+/*! ./cells.html */
+
+/*! ./cells.scss */
+
 /*! ./click-outside */
+
+/*! ./color.html */
+
+/*! ./color.scss */
 
 /*! ./color/transformSRGB */
 
 /*! ./column */
 
+/*! ./commands */
+
 /*! ./common */
 
 /*! ./components */
 
+/*! ./condition.html */
+
+/*! ./condition.scss */
+
 /*! ./console */
+
+/*! ./convert-action.html */
 
 /*! ./createNativeLocaleFormatter */
 
 /*! ./createTransition */
 
+/*! ./creator-base */
+
 /*! ./cs */
+
+/*! ./custom.html */
+
+/*! ./custom.scss */
 
 /*! ./de */
 
+/*! ./default-value.html */
+
+/*! ./default-value.scss */
+
+/*! ./design-surface.html */
+
+/*! ./designer-container.scss */
+
+/*! ./designer-h-container.scss */
+
 /*! ./directives */
+
+/*! ./dragdrophelper */
+
+/*! ./dropdown.html */
+
+/*! ./dropdown.scss */
 
 /*! ./easing-patterns */
 
+/*! ./editableObject */
+
+/*! ./editorLocalization */
+
 /*! ./el */
 
+/*! ./element-selector.html */
+
+/*! ./element-selector.scss */
+
+/*! ./embed.html */
+
+/*! ./embed.scss */
+
 /*! ./en */
+
+/*! ./error.html */
+
+/*! ./error.scss */
 
 /*! ./es */
 
@@ -900,6 +1245,10 @@ and limitations under the License.
 
 /*! ./expand-transition */
 
+/*! ./expression.html */
+
+/*! ./expression.scss */
+
 /*! ./fa */
 
 /*! ./fa-svg */
@@ -907,6 +1256,12 @@ and limitations under the License.
 /*! ./fa4 */
 
 /*! ./fi */
+
+/*! ./file.html */
+
+/*! ./file.scss */
+
+/*! ./flowpanel-actions.scss */
 
 /*! ./fr */
 
@@ -926,11 +1281,21 @@ and limitations under the License.
 
 /*! ./hr */
 
+/*! ./html-pe.html */
+
+/*! ./html-pe.scss */
+
 /*! ./hu */
 
 /*! ./icons */
 
 /*! ./id */
+
+/*! ./image-items.scss */
+
+/*! ./image.scss */
+
+/*! ./index.html */
 
 /*! ./install */
 
@@ -938,11 +1303,33 @@ and limitations under the License.
 
 /*! ./it */
 
+/*! ./item-editor */
+
+/*! ./item-editor.scss */
+
+/*! ./item-values.html */
+
+/*! ./item-values.scss */
+
 /*! ./ja */
+
+/*! ./json-editor.html */
+
+/*! ./json-editor.scss */
+
+/*! ./json5 */
 
 /*! ./ko */
 
+/*! ./label-editor.scss */
+
 /*! ./lang */
+
+/*! ./localization/english */
+
+/*! ./logic.html */
+
+/*! ./logic.scss */
 
 /*! ./lt */
 
@@ -966,25 +1353,131 @@ and limitations under the License.
 
 /*! ./mixins/header */
 
+/*! ./modal-content.html */
+
+/*! ./modal-content.scss */
+
+/*! ./modal.html */
+
+/*! ./modal.scss */
+
 /*! ./monthChange */
 
 /*! ./mouse */
 
+/*! ./multiple-values.html */
+
+/*! ./multiple-values.scss */
+
 /*! ./mutate */
+
+/*! ./nested-item.html */
+
+/*! ./nested-item.scss */
+
+/*! ./nested-items.html */
+
+/*! ./nested-items.scss */
+
+/*! ./nested.html */
+
+/*! ./nested.scss */
 
 /*! ./nl */
 
 /*! ./no */
 
+/*! ./number.html */
+
+/*! ./number.scss */
+
+/*! ./object-editor-content.html */
+
+/*! ./object-editor-content.scss */
+
+/*! ./object-editor-old-table-content.html */
+
+/*! ./object-editor-old-table-content.scss */
+
+/*! ./object-editor-tab.html */
+
+/*! ./object-editor-tab.scss */
+
+/*! ./object-editor.html */
+
+/*! ./object-editor.scss */
+
+/*! ./one-selected.html */
+
+/*! ./one-selected.scss */
+
 /*! ./pad */
+
+/*! ./pages-editor */
+
+/*! ./pages-editor.scss */
 
 /*! ./pl */
 
 /*! ./presets */
 
+/*! ./property-editor.html */
+
+/*! ./property-editor.scss */
+
+/*! ./property-grid.html */
+
+/*! ./property-grid.scss */
+
+/*! ./propertyCustomEditor */
+
+/*! ./propertyDefaultValueEditor */
+
+/*! ./propertyEditorBase */
+
+/*! ./propertyEditorFactory */
+
+/*! ./propertyEditors/editableObject */
+
+/*! ./propertyEditors/propertyEditorFactory */
+
+/*! ./propertyEditors/propertyeditor-triggersitems.html */
+
+/*! ./propertyItemsEditor */
+
+/*! ./propertyModalEditor */
+
+/*! ./propertyNestedPropertyEditor */
+
+/*! ./propertyOneSelectedEditor */
+
 /*! ./pt */
 
+/*! ./question-actions */
+
+/*! ./question-actions.scss */
+
+/*! ./questionEditorDefinition */
+
+/*! ./questionEditors/questionEditor */
+
+/*! ./questionEditors/questioneditor.html */
+
+/*! ./questionconverter */
+
+/*! ./rating-item-editor.scss */
+
 /*! ./resize */
+
+/*! ./restfull.html */
+
+/*! ./restfull.scss */
+
+/*! ./results-table-row.html */
+
+/*! ./results.html */
+
+/*! ./results.scss */
 
 /*! ./ripple */
 
@@ -994,17 +1487,61 @@ and limitations under the License.
 
 /*! ./scroll */
 
+/*! ./select-items */
+
+/*! ./select-items-editor.scss */
+
 /*! ./services */
+
+/*! ./simulator.html */
+
+/*! ./simulator.scss */
 
 /*! ./sk */
 
 /*! ./sl */
 
+/*! ./splitter.scss */
+
 /*! ./sr-Cyrl */
 
 /*! ./stack */
 
+/*! ./string.html */
+
+/*! ./string.scss */
+
+/*! ./stylesmanager */
+
+/*! ./surveyElementSelector */
+
+/*! ./surveyHelper */
+
+/*! ./surveyObjects */
+
+/*! ./surveyjsObjects */
+
 /*! ./sv */
+
+/*! ./switch.html */
+
+/*! ./switch.scss */
+
+/*! ./tabs.html */
+
+/*! ./tabs/logic */
+
+/*! ./tabs/test */
+
+/*! ./test.html */
+
+/*! ./test.scss */
+
+/*! ./text.html */
+
+/*! ./text.scss */
+
+/*! ./textWorker */
 
 /*! ./th */
 
@@ -1014,13 +1551,39 @@ and limitations under the License.
 
 /*! ./timestamp */
 
+/*! ./title-actions.scss */
+
+/*! ./title-editor */
+
+/*! ./title-editor.scss */
+
+/*! ./toolbar.html */
+
+/*! ./toolbar.scss */
+
+/*! ./toolbox */
+
+/*! ./toolbox-item */
+
+/*! ./toolbox-item.scss */
+
+/*! ./toolbox.scss */
+
 /*! ./touch */
 
 /*! ./tr */
 
 /*! ./transitions */
 
+/*! ./translation-group.html */
+
+/*! ./translation.html */
+
+/*! ./translation.scss */
+
 /*! ./uk */
+
+/*! ./undoredomanager */
 
 /*! ./util */
 
@@ -1036,6 +1599,8 @@ and limitations under the License.
 
 /*! ./utils */
 
+/*! ./utils/utils */
+
 /*! ./zh-Hans */
 
 /*! ./zh-Hant */
@@ -1043,6 +1608,8 @@ and limitations under the License.
 /*! =======================================================
                       VERSION  10.6.2              
 ========================================================= */
+
+/*! exports provided: AccordionItemModel, AccordionViewModel */
 
 /*! exports provided: Application */
 
@@ -1054,7 +1621,11 @@ and limitations under the License.
 
 /*! exports provided: BaseSlideGroup, default */
 
+/*! exports provided: BooleanViewModel */
+
 /*! exports provided: Breakpoint */
+
+/*! exports provided: ButtonViewModel */
 
 /*! exports provided: CalendarEventOverlapModes */
 
@@ -1062,21 +1633,123 @@ and limitations under the License.
 
 /*! exports provided: ClickOutside, default */
 
+/*! exports provided: Commands */
+
+/*! exports provided: ConditionEditorItem, SurveyPropertyConditionEditor, doGetCompletions, insertMatch */
+
+/*! exports provided: CreatorBase */
+
+/*! exports provided: DesignerContainerViewModel */
+
+/*! exports provided: DesignerHContainerViewModel */
+
+/*! exports provided: DragDropTargetElement, DragDropHelper */
+
+/*! exports provided: DropdownViewModel */
+
+/*! exports provided: EditableObject */
+
+/*! exports provided: ElementSelectorViewModel */
+
+/*! exports provided: ExpressionToDisplayText, ExpressionRemoveVariable */
+
+/*! exports provided: Extentions */
+
+/*! exports provided: FlowPanelActionsAdorner, flowpanelActionsAdorner */
+
 /*! exports provided: Icons */
 
 /*! exports provided: Intersect, default */
+
+/*! exports provided: ItemInplaceEditor, itemAdorner, createAddItemHandler, createAddItemElement, createCustomElement, itemDraggableAdorner */
 
 /*! exports provided: Lang */
 
 /*! exports provided: Mutate, default */
 
+/*! exports provided: ObjType, SurveyHelper */
+
+/*! exports provided: ObjectEditorContentViewModel */
+
+/*! exports provided: ObjectEditorOldTableContentViewModel */
+
+/*! exports provided: ObjectEditorTabViewModel */
+
+/*! exports provided: ObjectEditorViewModel */
+
 /*! exports provided: PARSE_REGEX, PARSE_TIME, DAYS_IN_MONTH, DAYS_IN_MONTH_LEAP, DAYS_IN_MONTH_MIN, DAYS_IN_MONTH_MAX, MONTH_MAX, MONTH_MIN, DAY_MIN, DAYS_IN_WEEK, MINUTES_IN_HOUR, MINUTE_MAX, MINUTES_IN_DAY, HOURS_IN_DAY, HOUR_MAX, FIRST_HOUR, OFFSET_YEAR, OFFSET_MONTH, OFFSET_HOUR, OFFSET_TIME, getStartOfWeek, getEndOfWeek, getStartOfMonth, getEndOfMonth, validateTime, parseTime, validateTimestamp, parseTimestamp, parseDate, getDayIdentifier, getTimeIdentifier, getTimestampIdentifier, updateRelative, isTimedless, updateHasTime, updateMinutes, updateWeekday, updateFormatted, getWeekday, daysInMonth, copyTimestamp, padNumber, getDate, getTime, nextMinutes, nextDay, prevDay, relativeDays, diffMinutes, findWeekday, getWeekdaySkips, timestampToDate, createDayList, createIntervalList, createNativeLocaleFormatter */
 
+/*! exports provided: PagesEditor */
+
+/*! exports provided: PagesEditorViewModel */
+
 /*! exports provided: Presets */
+
+/*! exports provided: PropertyEditorBindingsViewModel */
+
+/*! exports provided: PropertyEditorBooleanViewModel */
+
+/*! exports provided: PropertyEditorCellsViewModel */
+
+/*! exports provided: PropertyEditorColorViewModel */
+
+/*! exports provided: PropertyEditorConditionViewModel */
+
+/*! exports provided: PropertyEditorCustomViewModel */
+
+/*! exports provided: PropertyEditorDropdownViewModel */
+
+/*! exports provided: PropertyEditorErrorViewModel */
+
+/*! exports provided: PropertyEditorExpressionViewModel */
+
+/*! exports provided: PropertyEditorHTMLViewModel */
+
+/*! exports provided: PropertyEditorItemValuesViewModel */
+
+/*! exports provided: PropertyEditorModalContent */
+
+/*! exports provided: PropertyEditorModalViewModel */
+
+/*! exports provided: PropertyEditorMultipleValuesViewModel */
+
+/*! exports provided: PropertyEditorNestedItemViewModel */
+
+/*! exports provided: PropertyEditorNestedItemsViewModel */
+
+/*! exports provided: PropertyEditorNestedViewModel */
+
+/*! exports provided: PropertyEditorNumberViewModel */
+
+/*! exports provided: PropertyEditorOneSelectedViewModel */
+
+/*! exports provided: PropertyEditorRestfullViewModel */
+
+/*! exports provided: PropertyEditorStringViewModel */
+
+/*! exports provided: PropertyEditorSwitchViewModel */
+
+/*! exports provided: PropertyEditorTextViewModel */
+
+/*! exports provided: PropertyEditorValueViewModel */
+
+/*! exports provided: PropertyEditorViewModel */
+
+/*! exports provided: PropertyGridObjectEditorModel, SurveyElementEditorContentModel, SurveyElementEditorOldTableContentModel, SurveyElementEditorTabModel, SurveyPropertyEditorShowWindow, SurveyQuestionEditorPropertyDefinition, SurveyQuestionEditorTabDefinition, SurveyQuestionProperties, SurveyQuestionEditor */
+
+/*! exports provided: PropertyGridViewModel */
+
+/*! exports provided: QuestionActionsAdorner, questionActionsAdorner, panelActionsAdorner */
+
+/*! exports provided: QuestionConverter */
+
+/*! exports provided: QuestionToolbox */
 
 /*! exports provided: Resize, default */
 
 /*! exports provided: Ripple, default */
+
+/*! exports provided: SVGIconBinding */
 
 /*! exports provided: Scroll, default */
 
@@ -1086,9 +1759,103 @@ and limitations under the License.
 
 /*! exports provided: Service */
 
+/*! exports provided: SplitterComponentViewModel */
+
+/*! exports provided: StylesManager */
+
+/*! exports provided: SurveyCreator, SurveyEditor */
+
+/*! exports provided: SurveyCreatorProperties, creatorProperties */
+
+/*! exports provided: SurveyElementSelector */
+
+/*! exports provided: SurveyEmbedingWindow */
+
+/*! exports provided: SurveyFilePropertyEditor, PropertyEditorFileViewModel */
+
+/*! exports provided: SurveyForDesigner, createAfterRenderHandler, createAfterRenderPageHandler, createAfterRenderHeaderHandler, registerAdorner, removeAdorners, addAdornerMarkerClasses, applyAdornerClass */
+
+/*! exports provided: SurveyJSON5 */
+
+/*! exports provided: SurveyJSONEditor */
+
+/*! exports provided: SurveyLogicType, SurveyLogicAction, SurveyLogicItem, SurveyLogic */
+
+/*! exports provided: SurveyNestedPropertyEditor, SurveyNestedPropertyEditorItem, SurveyNestedPropertyEditorColumn, SurveyNestedPropertyEditorEditorCell */
+
+/*! exports provided: SurveyObjectItem, SurveyObjects */
+
+/*! exports provided: SurveyObjectProperty */
+
+/*! exports provided: SurveyPropertyBindingsItem, SurveyPropertyBindingsEditor */
+
+/*! exports provided: SurveyPropertyCalculatedValueEditor */
+
+/*! exports provided: SurveyPropertyCellsEditor */
+
+/*! exports provided: SurveyPropertyCustomEditor */
+
+/*! exports provided: SurveyPropertyDefaultValueEditor, SurveyPropertyTriggerValueEditor, SurveyPropertyDefaultRowValueEditorBase, SurveyPropertyDefaultRowValueEditor, SurveyPropertyDefaultPanelValueEditor, SurveyPropertySetEditor */
+
+/*! exports provided: SurveyPropertyDropdownColumnsEditor */
+
+/*! exports provided: SurveyPropertyEditorBase */
+
+/*! exports provided: SurveyPropertyEditorFactory, SurveyStringPropertyEditor, SurveyDropdownPropertyEditor, SurveyQuestionPropertyEditor, SurveyQuestionValuePropertyEditor, SurveyBooleanPropertyEditor, SurveySwitchPropertyEditor, SurveyNumberPropertyEditor, SurveyColorPropertyEditor */
+
+/*! exports provided: SurveyPropertyHtmlConditionEditor */
+
+/*! exports provided: SurveyPropertyItemValuesEditor */
+
+/*! exports provided: SurveyPropertyItemsEditor */
+
+/*! exports provided: SurveyPropertyModalEditorCustomWidget, SurveyPropertyModalEditor, SurveyPropertyTextEditor, SurveyPropertyHtmlEditor */
+
+/*! exports provided: SurveyPropertyMultipleValuesEditor */
+
+/*! exports provided: SurveyPropertyOneSelectedEditor */
+
+/*! exports provided: SurveyPropertyPagesEditor */
+
+/*! exports provided: SurveyPropertyResultfullEditor, SurveyPropertyResultfullEditorItem */
+
+/*! exports provided: SurveyPropertyTextItemsEditor */
+
+/*! exports provided: SurveyPropertyTriggersEditor, SurveyPropertySelectItemsEditor, SurveyPropertySelectPagesEditor, SurveyPropertySelectQuestionsEditor */
+
+/*! exports provided: SurveyPropertyUrlConditionEditor */
+
+/*! exports provided: SurveyPropertyValidatorsEditor */
+
+/*! exports provided: SurveyQuestionEditorDefinition */
+
+/*! exports provided: SurveyResultsModel */
+
+/*! exports provided: SurveySimulatorComponent, DEFAULT_MONITOR_DPI, simulatorDevices */
+
+/*! exports provided: SurveySimulatorComponent, SurveyResultsModel, SurveyLiveTester */
+
+/*! exports provided: SurveyTextWorker */
+
+/*! exports provided: SurveyWidgetBinding */
+
 /*! exports provided: Theme */
 
+/*! exports provided: TitleActionsViewModel */
+
+/*! exports provided: TitleInplaceEditor, titleAdorner, itemTitleAdorner, descriptionAdorner */
+
+/*! exports provided: Toolbar */
+
+/*! exports provided: ToolboxItemViewModel */
+
+/*! exports provided: ToolboxItemViewModel, ToolboxViewModel */
+
 /*! exports provided: Touch, default */
+
+/*! exports provided: TranslationItemBase, TranslationItem, TranslationGroup, Translation */
+
+/*! exports provided: UndoRedoManager, Transaction, UndoRedoAction, Action, ArrayAction */
 
 /*! exports provided: VAlert, default */
 
@@ -1254,6 +2021,10 @@ and limitations under the License.
 
 /*! exports provided: VWindow, VWindowItem, default */
 
+/*! exports provided: Version, enStrings, editorLocalization, defaultStrings, localization, DragDropHelper, EditableObject, SurveyElementSelector, SurveyPropertyEditorBase, SurveyPropertyCustomEditor, SurveyPropertyEditorFactory, SurveyStringPropertyEditor, SurveyDropdownPropertyEditor, SurveyBooleanPropertyEditor, SurveyNumberPropertyEditor, SurveyPropertyTextItemsEditor, SurveyPropertyItemsEditor, SurveyPropertyItemValuesEditor, SurveyPropertyMultipleValuesEditor, SurveyNestedPropertyEditor, SurveyNestedPropertyEditorItem, SurveyPropertyPagesEditor, SurveyPropertyDropdownColumnsEditor, SurveyPropertyModalEditor, SurveyPropertyTextEditor, SurveyPropertyHtmlEditor, SurveyPropertyConditionEditor, SurveyPropertyResultfullEditor, SurveyPropertyDefaultValueEditor, SurveyPropertyDefaultRowValueEditor, SurveyPropertyDefaultPanelValueEditor, SurveyPropertySetEditor, SurveyPropertyTriggersEditor, SurveyPropertyHtmlConditionEditor, SurveyPropertyUrlConditionEditor, SurveyPropertyCalculatedValueEditor, SurveyPropertyValidatorsEditor, SurveyPropertyCellsEditor, SurveyPropertyBindingsEditor, SurveyObjects, SurveyQuestionEditorDefinition, SurveyCreatorProperties, creatorProperties, SurveyPropertyEditorShowWindow, SurveyQuestionEditor, SurveyElementEditorTabModel, ToolboxItemViewModel, ToolboxViewModel, QuestionToolbox, SurveyObjectProperty, PagesEditorViewModel, ElementSelectorViewModel, Toolbar, SurveyTextWorker, ObjType, SurveyHelper, SurveyLiveTester, SurveyEmbedingWindow, QuestionConverter, SurveyJSONEditor, SurveyLogic, SurveyForDesigner, registerAdorner, removeAdorners, Extentions, SurveyEditor, SurveyCreator, StylesManager, Translation, TranslationGroup, TranslationItem, TranslationItemBase, titleAdorner, itemTitleAdorner, descriptionAdorner, itemAdorner, itemDraggableAdorner, labelAdorner, questionActionsAdorner, panelActionsAdorner, selectItemsAdorner, ratingItemAdorner, imageItemsAdorner, flowpanelActionsAdorner, imageAdorner, titleImageAdorner, TitleActionsViewModel, AccordionItemModel, AccordionViewModel, ButtonViewModel, DropdownViewModel, BooleanViewModel, SVGIconBinding, SurveyWidgetBinding, SplitterComponentViewModel, DesignerContainerViewModel, DesignerHContainerViewModel, SurveyPropertyOneSelectedEditor, PropertyGridViewModel, ObjectEditorViewModel, ObjectEditorContentViewModel, ObjectEditorTabViewModel, ObjectEditorOldTableContentViewModel, PropertyEditorViewModel, PropertyEditorErrorViewModel, PropertyEditorStringViewModel, PropertyEditorDropdownViewModel, PropertyEditorBooleanViewModel, PropertyEditorSwitchViewModel, PropertyEditorNumberViewModel, PropertyEditorColorViewModel, PropertyEditorModalViewModel, PropertyEditorModalContent, PropertyEditorTextViewModel, PropertyEditorConditionViewModel, PropertyEditorCellsViewModel, PropertyEditorExpressionViewModel, PropertyEditorHTMLViewModel, PropertyEditorItemValuesViewModel, PropertyEditorValueViewModel, PropertyEditorOneSelectedViewModel, PropertyEditorRestfullViewModel, PropertyEditorMultipleValuesViewModel, PropertyEditorNestedItemsViewModel, PropertyEditorNestedItemViewModel, PropertyEditorNestedViewModel, PropertyEditorCustomViewModel, PropertyEditorBindingsViewModel, SurveyFilePropertyEditor, simulatorDevices */
+
+/*! exports provided: __assign, __extends */
+
 /*! exports provided: af, ar, ca, cs, de, el, en, es, et, fa, fi, fr, hr, hu, he, id, it, ja, ko, lv, lt, nl, no, pl, pt, ro, ru, sk, sl, srCyrl, sv, th, tr, uk, zhHans, zhHant */
 
 /*! exports provided: checkCollinear, getDistance, moveTo */
@@ -1272,6 +2043,8 @@ and limitations under the License.
 
 /*! exports provided: createSimpleTransition, createJavascriptTransition */
 
+/*! exports provided: danishStrings */
+
 /*! exports provided: default */
 
 /*! exports provided: default, Goto */
@@ -1283,6 +2056,10 @@ and limitations under the License.
 /*! exports provided: default, validateNumber, validateWeekdays */
 
 /*! exports provided: defaultMenuProps, default */
+
+/*! exports provided: editorLocalization, getLocString, defaultStrings */
+
+/*! exports provided: enStrings */
 
 /*! exports provided: factory, default */
 
@@ -1296,9 +2073,19 @@ and limitations under the License.
 
 /*! exports provided: genPoints, genBars */
 
+/*! exports provided: getNextValue, findParentNode, focusFirstControl, getFirstNonTextElement, getNodesFromKoComponentInfo, createKey2click, isPropertyVisible */
+
 /*! exports provided: getOffset, getContainer */
 
 /*! exports provided: getVisuals, hasOverlap, setColumnCount, getRange, getDayRange, getNormalizedRange, getOpenGroup, getOverlapGroupHandler */
+
+/*! exports provided: huStrings */
+
+/*! exports provided: imageAdorner */
+
+/*! exports provided: imageItemsAdorner, addImageItemAdorner */
+
+/*! exports provided: indonesianStrings */
 
 /*! exports provided: inject, provide */
 
@@ -1306,9 +2093,15 @@ and limitations under the License.
 
 /*! exports provided: isCssColor, colorToInt, classToHex, intToHex, colorToHex, HSVAtoRGBA, RGBAtoHSVA, HSVAtoHSLA, HSLAtoHSVA, RGBAtoCSS, RGBtoCSS, RGBAtoHex, HexToRGBA, HexToHSVA, HSVAtoHex, parseHex, parseGradient, RGBtoInt, contrastRatio */
 
+/*! exports provided: koreanStrings */
+
+/*! exports provided: labelAdorner */
+
 /*! exports provided: linear, easeInQuad, easeOutQuad, easeInOutQuad, easeInCubic, easeOutCubic, easeInOutCubic, easeInQuart, easeOutQuart, easeInOutQuart, easeInQuint, easeOutQuint, easeInOutQuint */
 
 /*! exports provided: modes, default */
+
+/*! exports provided: nbStrings */
 
 /*! exports provided: parse, genStyles, genVariations, lighten, darken */
 
@@ -1318,13 +2111,79 @@ and limitations under the License.
 
 /*! exports provided: prevent, default */
 
+/*! exports provided: ratingItemAdorner */
+
+/*! exports provided: renderDisplayMode */
+
+/*! exports provided: renderEditableItems */
+
+/*! exports provided: ruStrings */
+
+/*! exports provided: selectItemsAdorner */
+
 /*! exports provided: stack */
 
+/*! exports provided: svStrings */
+
+/*! exports provided: tgStrings */
+
+/*! exports provided: titleImageAdorner */
+
+/*! exports provided: turkishStrings */
+
 /*! exports provided: weekNumber, isLeapYear */
+
+/*! html-loader?interpolate!val-loader!./accordion.html */
+
+/*! html-loader?interpolate!val-loader!./designer-container.html */
+
+/*! html-loader?interpolate!val-loader!./designer-h-container.html */
+
+/*! html-loader?interpolate!val-loader!./flowpanel-actions.html */
+
+/*! html-loader?interpolate!val-loader!./image-items.html */
+
+/*! html-loader?interpolate!val-loader!./image.html */
+
+/*! html-loader?interpolate!val-loader!./item-editor.html */
+
+/*! html-loader?interpolate!val-loader!./pages-editor.html */
+
+/*! html-loader?interpolate!val-loader!./question-actions.html */
+
+/*! html-loader?interpolate!val-loader!./rating-item-editor.html */
+
+/*! html-loader?interpolate!val-loader!./select-items-display.html */
+
+/*! html-loader?interpolate!val-loader!./select-items-editor.html */
+
+/*! html-loader?interpolate!val-loader!./templates/entry.html */
+
+/*! html-loader?interpolate!val-loader!./title-actions.html */
+
+/*! html-loader?interpolate!val-loader!./title-editor.html */
+
+/*! html-loader?interpolate!val-loader!./toolbox-item.html */
+
+/*! html-loader?interpolate!val-loader!./toolbox.html */
+
+/*! knockout */
+
+/*! no exports provided */
 
 /*! no static exports found */
 
 /*! nouislider - 10.1.0 - 2017-07-28 17:11:18 */
+
+/*! papaparse */
+
+/*! rmodal */
+
+/*! sortablejs */
+
+/*! survey-knockout */
+
+/*! tslib */
 
 /*! vue */
 
@@ -1332,9 +2191,29 @@ and limitations under the License.
   !*** ./src/index.ts ***!
   \**********************/
 
+/*!**********************!*\
+  !*** ./src/json5.ts ***!
+  \**********************/
+
+/*!***********************!*\
+  !*** ./src/editor.ts ***!
+  \***********************/
+
+/*!***********************!*\
+  !*** ./src/main.scss ***!
+  \***********************/
+
 /*!************************!*\
   !*** ./src/install.ts ***!
   \************************/
+
+/*!************************!*\
+  !*** ./src/toolbox.ts ***!
+  \************************/
+
+/*!*************************!*\
+  !*** ./src/commands.ts ***!
+  \*************************/
 
 /*!**************************!*\
   !*** ./src/framework.ts ***!
@@ -1472,6 +2351,38 @@ and limitations under the License.
   !*** ./src/locale/uk.ts ***!
   \**************************/
 
+/*!**************************!*\
+  !*** ./src/tabs/test.ts ***!
+  \**************************/
+
+/*!***************************!*\
+  !*** ./src/extentions.ts ***!
+  \***************************/
+
+/*!***************************!*\
+  !*** ./src/tabs/embed.ts ***!
+  \***************************/
+
+/*!***************************!*\
+  !*** ./src/tabs/logic.ts ***!
+  \***************************/
+
+/*!***************************!*\
+  !*** ./src/textWorker.ts ***!
+  \***************************/
+
+/*!****************************!*\
+  !*** ./src/svgbundle.html ***!
+  \****************************/
+
+/*!****************************!*\
+  !*** ./src/tabs/test.html ***!
+  \****************************/
+
+/*!****************************!*\
+  !*** ./src/tabs/test.scss ***!
+  \****************************/
+
 /*!****************************!*\
   !*** ./src/util/colors.ts ***!
   \****************************/
@@ -1480,8 +2391,40 @@ and limitations under the License.
   !*** ./src/util/mixins.ts ***!
   \****************************/
 
+/*!****************************!*\
+  !*** ./src/utils/utils.ts ***!
+  \****************************/
+
+/*!*****************************!*\
+  !*** ./src/creator-base.ts ***!
+  \*****************************/
+
 /*!*****************************!*\
   !*** ./src/locale/index.ts ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/pages-editor.ts ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/surveyHelper.ts ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/tabs/embed.html ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/tabs/embed.scss ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/tabs/logic.html ***!
+  \*****************************/
+
+/*!*****************************!*\
+  !*** ./src/tabs/logic.scss ***!
   \*****************************/
 
 /*!*****************************!*\
@@ -1492,9 +2435,37 @@ and limitations under the License.
   !*** ./src/util/helpers.ts ***!
   \*****************************/
 
+/*!*****************************!*\
+  !*** ./src/utils/button.ts ***!
+  \*****************************/
+
+/*!******************************!*\
+  !*** ./src/entries/index.ts ***!
+  \******************************/
+
 /*!******************************!*\
   !*** ./src/styles/main.sass ***!
   \******************************/
+
+/*!******************************!*\
+  !*** ./src/stylesmanager.ts ***!
+  \******************************/
+
+/*!******************************!*\
+  !*** ./src/surveyObjects.ts ***!
+  \******************************/
+
+/*!******************************!*\
+  !*** ./src/utils/boolean.ts ***!
+  \******************************/
+
+/*!*******************************!*\
+  !*** ./src/adorners/image.ts ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/dragdrophelper.ts ***!
+  \*******************************/
 
 /*!*******************************!*\
   !*** ./src/locale/sr-Cyrl.ts ***!
@@ -1509,6 +2480,10 @@ and limitations under the License.
   \*******************************/
 
 /*!*******************************!*\
+  !*** ./src/objectProperty.ts ***!
+  \*******************************/
+
+/*!*******************************!*\
   !*** ./src/services/index.ts ***!
   \*******************************/
 
@@ -1516,9 +2491,65 @@ and limitations under the License.
   !*** ./src/util/mergeData.ts ***!
   \*******************************/
 
+/*!*******************************!*\
+  !*** ./src/utils/button.html ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/utils/button.scss ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/utils/ddmenu.scss ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/utils/dropdown.ts ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/utils/splitter.ts ***!
+  \*******************************/
+
+/*!*******************************!*\
+  !*** ./src/utils/svg-icon.ts ***!
+  \*******************************/
+
+/*!********************************!*\
+  !*** ./src/entries/helpers.ts ***!
+  \********************************/
+
+/*!********************************!*\
+  !*** ./src/images/YouTube.png ***!
+  \********************************/
+
+/*!********************************!*\
+  !*** ./src/surveyjsObjects.ts ***!
+  \********************************/
+
+/*!********************************!*\
+  !*** ./src/undoredomanager.ts ***!
+  \********************************/
+
 /*!********************************!*\
   !*** ./src/util/colorUtils.ts ***!
   \********************************/
+
+/*!********************************!*\
+  !*** ./src/utils/accordion.ts ***!
+  \********************************/
+
+/*!********************************!*\
+  !*** ./src/utils/boolean.html ***!
+  \********************************/
+
+/*!********************************!*\
+  !*** ./src/utils/boolean.scss ***!
+  \********************************/
+
+/*!*********************************!*\
+  !*** ./src/adorners/image.scss ***!
+  \*********************************/
 
 /*!*********************************!*\
   !*** ./src/components/index.ts ***!
@@ -1528,13 +2559,105 @@ and limitations under the License.
   !*** ./src/directives/index.ts ***!
   \*********************************/
 
+/*!*********************************!*\
+  !*** ./src/tabs/json-editor.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/tabs/translation.ts ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/templates/tabs.html ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/utils/dropdown.html ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/utils/dropdown.scss ***!
+  \*********************************/
+
+/*!*********************************!*\
+  !*** ./src/utils/splitter.scss ***!
+  \*********************************/
+
+/*!**********************************!*\
+  !*** ./src/questionconverter.ts ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/templates/index.html ***!
+  \**********************************/
+
+/*!**********************************!*\
+  !*** ./src/utils/accordion.scss ***!
+  \**********************************/
+
+/*!***********************************!*\
+  !*** ./src/components/results.ts ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/components/toolbar.ts ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/components/toolbox.ts ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/editorLocalization.ts ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/localization/tajik.ts ***!
+  \***********************************/
+
 /*!***********************************!*\
   !*** ./src/services/goto/util.ts ***!
   \***********************************/
 
 /*!***********************************!*\
+  !*** ./src/tabs/json-editor.html ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/tabs/json-editor.scss ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/tabs/translation.html ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/tabs/translation.scss ***!
+  \***********************************/
+
+/*!***********************************!*\
   !*** ./src/util/dateTimeUtils.ts ***!
   \***********************************/
+
+/*!************************************!*\
+  !*** ./src/localization/danish.ts ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/localization/french.ts ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/localization/german.ts ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/localization/korean.ts ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/localization/polish.ts ***!
+  \************************************/
 
 /*!************************************!*\
   !*** ./src/mixins/mobile/index.ts ***!
@@ -1552,6 +2675,26 @@ and limitations under the License.
   !*** ./src/services/lang/index.ts ***!
   \************************************/
 
+/*!************************************!*\
+  !*** ./src/templates/toolbar.html ***!
+  \************************************/
+
+/*!************************************!*\
+  !*** ./src/utils/survey-widget.ts ***!
+  \************************************/
+
+/*!*************************************!*\
+  !*** ./src/adorners/image-items.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/adorners/item-editor.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/adorners/title-image.ts ***!
+  \*************************************/
+
 /*!*************************************!*\
   !*** ./src/components/VApp/VApp.ts ***!
   \*************************************/
@@ -1565,6 +2708,58 @@ and limitations under the License.
   \*************************************/
 
 /*!*************************************!*\
+  !*** ./src/components/results.html ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/components/results.scss ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/components/simulator.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/components/toolbar.html ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/components/toolbar.scss ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/components/toolbox.scss ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/localization/english.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/localization/italian.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/localization/persian.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/localization/russian.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/localization/spanish.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/localization/swedish.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
+  !*** ./src/localization/turkish.ts ***!
+  \*************************************/
+
+/*!*************************************!*\
   !*** ./src/services/icons/index.ts ***!
   \*************************************/
 
@@ -1575,6 +2770,22 @@ and limitations under the License.
 /*!*************************************!*\
   !*** ./src/services/theme/utils.ts ***!
   \*************************************/
+
+/*!*************************************!*\
+  !*** ./vendor/knockout-sortable.js ***!
+  \*************************************/
+
+/*!**************************************!*\
+  !*** ./src/adorners/label-editor.ts ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/adorners/select-items.ts ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/adorners/title-editor.ts ***!
+  \**************************************/
 
 /*!**************************************!*\
   !*** ./src/components/VApp/index.ts ***!
@@ -1627,6 +2838,30 @@ and limitations under the License.
 /*!**************************************!*\
   !*** ./src/presets/default/index.ts ***!
   \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/property-editors/file.ts ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/property-editors/text.ts ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/utils/custom-select.scss ***!
+  \**************************************/
+
+/*!***************************************!*\
+  !*** ./src/adorners/image-items.scss ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/adorners/item-editor.scss ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/adorners/title-actions.ts ***!
+  \***************************************/
 
 /*!***************************************!*\
   !*** ./src/components/VApp/VApp.sass ***!
@@ -1729,7 +2964,23 @@ and limitations under the License.
   \***************************************/
 
 /*!***************************************!*\
+  !*** ./src/components/simulator.html ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/components/simulator.scss ***!
+  \***************************************/
+
+/*!***************************************!*\
   !*** ./src/directives/touch/index.ts ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/localization/hungarian.ts ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/localization/norwegian.ts ***!
   \***************************************/
 
 /*!***************************************!*\
@@ -1769,12 +3020,36 @@ and limitations under the License.
   \***************************************/
 
 /*!***************************************!*\
+  !*** ./src/property-editors/cells.ts ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/property-editors/color.ts ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/property-editors/error.ts ***!
+  \***************************************/
+
+/*!***************************************!*\
+  !*** ./src/property-editors/modal.ts ***!
+  \***************************************/
+
+/*!***************************************!*\
   !*** ./src/services/presets/index.ts ***!
   \***************************************/
 
 /*!***************************************!*\
   !*** ./src/services/service/index.ts ***!
   \***************************************/
+
+/*!****************************************!*\
+  !*** ./src/adorners/label-editor.scss ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/adorners/title-editor.scss ***!
+  \****************************************/
 
 /*!****************************************!*\
   !*** ./src/components/VAlert/index.ts ***!
@@ -1801,6 +3076,14 @@ and limitations under the License.
   \****************************************/
 
 /*!****************************************!*\
+  !*** ./src/components/pages-editor.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/components/toolbox-item.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
   !*** ./src/directives/mutate/index.ts ***!
   \****************************************/
 
@@ -1814,6 +3097,18 @@ and limitations under the License.
 
 /*!****************************************!*\
   !*** ./src/directives/scroll/index.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/expressionToDisplayText.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/localization/indonesian.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/localization/portuguese.ts ***!
   \****************************************/
 
 /*!****************************************!*\
@@ -1855,6 +3150,54 @@ and limitations under the License.
 /*!****************************************!*\
   !*** ./src/mixins/toggleable/index.ts ***!
   \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/property-editors/custom.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/property-editors/file.html ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/property-editors/file.scss ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/property-editors/nested.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/property-editors/number.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/property-editors/string.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/property-editors/switch.ts ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/property-editors/text.html ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/property-editors/text.scss ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/utils/custom-checkbox.scss ***!
+  \****************************************/
+
+/*!*****************************************!*\
+  !*** ./node_modules/rmodal/index.es.js ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/adorners/title-actions.scss ***!
+  \*****************************************/
 
 /*!*****************************************!*\
   !*** ./src/components/VAlert/VAlert.ts ***!
@@ -1989,8 +3332,60 @@ and limitations under the License.
   \*****************************************/
 
 /*!*****************************************!*\
+  !*** ./src/property-editors/boolean.ts ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/property-editors/cells.html ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/property-editors/cells.scss ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/property-editors/color.html ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/property-editors/color.scss ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/property-editors/error.html ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/property-editors/error.scss ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/property-editors/html-pe.ts ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/property-editors/modal.html ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/property-editors/modal.scss ***!
+  \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/tabs/translation-group.html ***!
+  \*****************************************/
+
+/*!*****************************************!*\
   !*** ./src/util/color/transformSRGB.ts ***!
   \*****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/utils/designer-container.ts ***!
+  \*****************************************/
+
+/*!******************************************!*\
+  !*** ./src/adorners/question-actions.ts ***!
+  \******************************************/
 
 /*!******************************************!*\
   !*** ./src/components/VContent/index.ts ***!
@@ -2033,6 +3428,14 @@ and limitations under the License.
   \******************************************/
 
 /*!******************************************!*\
+  !*** ./src/components/pages-editor.scss ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/components/toolbox-item.scss ***!
+  \******************************************/
+
+/*!******************************************!*\
   !*** ./src/mixins/button-group/index.ts ***!
   \******************************************/
 
@@ -2046,6 +3449,58 @@ and limitations under the License.
 
 /*!******************************************!*\
   !*** ./src/mixins/translatable/index.ts ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/bindings.ts ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/custom.html ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/custom.scss ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/dropdown.ts ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/nested.html ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/nested.scss ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/number.html ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/number.scss ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/restfull.ts ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/string.html ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/string.scss ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/switch.html ***!
+  \******************************************/
+
+/*!******************************************!*\
+  !*** ./src/property-editors/switch.scss ***!
   \******************************************/
 
 /*!******************************************!*\
@@ -2063,6 +3518,10 @@ and limitations under the License.
 /*!******************************************!*\
   !*** ./src/util/dedupeModelListeners.ts ***!
   \******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/adorners/flowpanel-actions.ts ***!
+  \*******************************************/
 
 /*!*******************************************!*\
   !*** ./src/components/VAlert/VAlert.sass ***!
@@ -2185,6 +3644,30 @@ and limitations under the License.
   \*******************************************/
 
 /*!*******************************************!*\
+  !*** ./src/property-editors/boolean.html ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/property-editors/boolean.scss ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/property-editors/condition.ts ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/property-editors/html-pe.html ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/property-editors/html-pe.scss ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/questionEditors/properties.ts ***!
+  \*******************************************/
+
+/*!*******************************************!*\
   !*** ./src/services/application/index.ts ***!
   \*******************************************/
 
@@ -2197,8 +3680,32 @@ and limitations under the License.
   \*******************************************/
 
 /*!*******************************************!*\
+  !*** ./src/templates/convert-action.html ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/templates/design-surface.html ***!
+  \*******************************************/
+
+/*!*******************************************!*\
   !*** ./src/util/color/transformCIELAB.ts ***!
   \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/utils/designer-container.scss ***!
+  \*******************************************/
+
+/*!*******************************************!*\
+  !*** ./src/utils/designer-h-container.ts ***!
+  \*******************************************/
+
+/*!********************************************!*\
+  !*** ./src/adorners/question-actions.scss ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/adorners/rating-item-editor.ts ***!
+  \********************************************/
 
 /*!********************************************!*\
   !*** ./src/components/VBtnToggle/index.ts ***!
@@ -2257,6 +3764,10 @@ and limitations under the License.
   \********************************************/
 
 /*!********************************************!*\
+  !*** ./src/components/element-selector.ts ***!
+  \********************************************/
+
+/*!********************************************!*\
   !*** ./src/directives/ripple/VRipple.sass ***!
   \********************************************/
 
@@ -2265,8 +3776,56 @@ and limitations under the License.
   \********************************************/
 
 /*!********************************************!*\
+  !*** ./src/property-editors/bindings.html ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/property-editors/bindings.scss ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/property-editors/dropdown.html ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/property-editors/dropdown.scss ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/property-editors/expression.ts ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/property-editors/restfull.html ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/property-editors/restfull.scss ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/property-grid/object-editor.ts ***!
+  \********************************************/
+
+/*!********************************************!*\
+  !*** ./src/property-grid/property-grid.ts ***!
+  \********************************************/
+
+/*!********************************************!*\
   !*** ./src/util/rebuildFunctionalSlots.ts ***!
   \********************************************/
+
+/*!*********************************************!*\
+  !*** ./node_modules/sortablejs/Sortable.js ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/adorners/flowpanel-actions.scss ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/adorners/select-items-editor.ts ***!
+  \*********************************************/
 
 /*!*********************************************!*\
   !*** ./src/components/VAppBar/VAppBar.sass ***!
@@ -2377,12 +3936,44 @@ and limitations under the License.
   \*********************************************/
 
 /*!*********************************************!*\
+  !*** ./src/images/start-designing-form.svg ***!
+  \*********************************************/
+
+/*!*********************************************!*\
   !*** ./src/mixins/applicationable/index.ts ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/property-editors/condition.html ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/property-editors/condition.scss ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/property-editors/item-values.ts ***!
+  \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/property-editors/nested-item.ts ***!
   \*********************************************/
 
 /*!*********************************************!*\
   !*** ./src/services/icons/presets/index.ts ***!
   \*********************************************/
+
+/*!*********************************************!*\
+  !*** ./src/utils/designer-h-container.scss ***!
+  \*********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/adorners/rating-item-editor.scss ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/adorners/select-items-display.ts ***!
+  \**********************************************/
 
 /*!**********************************************!*\
   !*** ./src/components/VBottomSheet/index.ts ***!
@@ -2413,12 +4004,56 @@ and limitations under the License.
   \**********************************************/
 
 /*!**********************************************!*\
+  !*** ./src/components/element-selector.html ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/components/element-selector.scss ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/property-editors/expression.html ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/property-editors/expression.scss ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/property-editors/nested-items.ts ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/property-editors/one-selected.ts ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/property-grid/object-editor.html ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/property-grid/object-editor.scss ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/property-grid/property-grid.html ***!
+  \**********************************************/
+
+/*!**********************************************!*\
+  !*** ./src/property-grid/property-grid.scss ***!
+  \**********************************************/
+
+/*!**********************************************!*\
   !*** ./src/services/goto/easing-patterns.ts ***!
   \**********************************************/
 
 /*!**********************************************!*\
   !*** ./src/services/icons/presets/fa-svg.ts ***!
   \**********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/adorners/select-items-editor.scss ***!
+  \***********************************************/
 
 /*!***********************************************!*\
   !*** ./src/components/VAutocomplete/index.ts ***!
@@ -2509,7 +4144,43 @@ and limitations under the License.
   \***********************************************/
 
 /*!***********************************************!*\
+  !*** ./src/components/results-table-row.html ***!
+  \***********************************************/
+
+/*!***********************************************!*\
   !*** ./src/directives/click-outside/index.ts ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/property-editors/default-value.ts ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/property-editors/item-values.html ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/property-editors/item-values.scss ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/property-editors/modal-content.ts ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/property-editors/nested-item.html ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/property-editors/nested-item.scss ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/propertyEditors/editableObject.ts ***!
+  \***********************************************/
+
+/*!***********************************************!*\
+  !*** ./src/questionEditors/questionEditor.ts ***!
   \***********************************************/
 
 /*!***********************************************!*\
@@ -2543,6 +4214,34 @@ and limitations under the License.
 /*!************************************************!*\
   !*** ./src/components/VVirtualScroll/index.ts ***!
   \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/localization/simplified-chinese.ts ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/property-editors/nested-items.html ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/property-editors/nested-items.scss ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/property-editors/one-selected.html ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/property-editors/one-selected.scss ***!
+  \************************************************/
+
+/*!************************************************!*\
+  !*** ./src/property-grid/object-editor-tab.ts ***!
+  \************************************************/
+
+/*!*************************************************!*\
+  !*** ./node_modules/papaparse/papaparse.min.js ***!
+  \*************************************************/
 
 /*!*************************************************!*\
   !*** ./src/components/VBtnToggle/VBtnToggle.ts ***!
@@ -2652,6 +4351,34 @@ and limitations under the License.
   !*** ./src/components/VTreeview/VTreeview.sass ***!
   \*************************************************/
 
+/*!*************************************************!*\
+  !*** ./src/localization/traditional-chinese.ts ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/property-editors/default-value.html ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/property-editors/default-value.scss ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/property-editors/modal-content.html ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/property-editors/modal-content.scss ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/property-editors/multiple-values.ts ***!
+  \*************************************************/
+
+/*!*************************************************!*\
+  !*** ./src/property-editors/property-editor.ts ***!
+  \*************************************************/
+
 /*!**************************************************!*\
   !*** ./src/components/VAppBar/VAppBarNavIcon.ts ***!
   \**************************************************/
@@ -2686,6 +4413,14 @@ and limitations under the License.
 
 /*!**************************************************!*\
   !*** ./src/components/VSlideGroup/VSlideItem.ts ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/property-grid/object-editor-tab.html ***!
+  \**************************************************/
+
+/*!**************************************************!*\
+  !*** ./src/property-grid/object-editor-tab.scss ***!
   \**************************************************/
 
 /*!***************************************************!*\
@@ -2792,6 +4527,26 @@ and limitations under the License.
   !*** ./src/components/VTreeview/VTreeviewNode.ts ***!
   \***************************************************/
 
+/*!***************************************************!*\
+  !*** ./src/property-editors/multiple-values.html ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/property-editors/multiple-values.scss ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/property-editors/property-editor.html ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/property-editors/property-editor.scss ***!
+  \***************************************************/
+
+/*!***************************************************!*\
+  !*** ./src/propertyEditors/propertyEditorBase.ts ***!
+  \***************************************************/
+
 /*!****************************************************!*\
   !*** ./src/components/VCalendar/VCalendarDaily.ts ***!
   \****************************************************/
@@ -2814,6 +4569,26 @@ and limitations under the License.
 
 /*!****************************************************!*\
   !*** ./src/components/VStepper/VStepperContent.ts ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/property-grid/object-editor-content.ts ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/propertyEditors/propertyCellsEditor.ts ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/propertyEditors/propertyItemsEditor.ts ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/propertyEditors/propertyModalEditor.ts ***!
+  \****************************************************/
+
+/*!****************************************************!*\
+  !*** ./src/propertyEditors/propertyPagesEditor.ts ***!
   \****************************************************/
 
 /*!*****************************************************!*\
@@ -2868,6 +4643,10 @@ and limitations under the License.
   !*** ./src/components/VSlideGroup/VSlideGroup.sass ***!
   \*****************************************************/
 
+/*!*****************************************************!*\
+  !*** ./src/propertyEditors/propertyCustomEditor.ts ***!
+  \*****************************************************/
+
 /*!******************************************************!*\
   !*** ./src/components/VCalendar/VCalendarDaily.sass ***!
   \******************************************************/
@@ -2882,6 +4661,22 @@ and limitations under the License.
 
 /*!******************************************************!*\
   !*** ./src/components/VTimePicker/SelectingTimes.ts ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/property-grid/object-editor-content.html ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/property-grid/object-editor-content.scss ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/propertyEditors/propertyEditorFactory.ts ***!
+  \******************************************************/
+
+/*!******************************************************!*\
+  !*** ./src/propertyEditors/surveyElementSelector.ts ***!
   \******************************************************/
 
 /*!*******************************************************!*\
@@ -2932,6 +4727,18 @@ and limitations under the License.
   !*** ./src/components/VRangeSlider/VRangeSlider.sass ***!
   \*******************************************************/
 
+/*!*******************************************************!*\
+  !*** ./src/propertyEditors/propertyBindingsEditor.ts ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./src/propertyEditors/propertyRestfullEditor.ts ***!
+  \*******************************************************/
+
+/*!*******************************************************!*\
+  !*** ./src/propertyEditors/propertyTriggersEditor.ts ***!
+  \*******************************************************/
+
 /*!********************************************************!*\
   !*** ./src/components/VDatePicker/VDatePickerTitle.ts ***!
   \********************************************************/
@@ -2954,6 +4761,14 @@ and limitations under the License.
 
 /*!********************************************************!*\
   !*** ./src/components/transitions/createTransition.ts ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./src/propertyEditors/propertyConditionEditor.ts ***!
+  \********************************************************/
+
+/*!********************************************************!*\
+  !*** ./src/propertyEditors/propertyTextItemsEditor.ts ***!
   \********************************************************/
 
 /*!********************************************************!*\
@@ -3000,6 +4815,22 @@ and limitations under the License.
   !*** ./src/components/transitions/expand-transition.ts ***!
   \*********************************************************/
 
+/*!*********************************************************!*\
+  !*** ./src/propertyEditors/propertyCalculatedValues.ts ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/propertyEditors/propertyItemValuesEditor.ts ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/propertyEditors/propertyValidatorsEditor.ts ***!
+  \*********************************************************/
+
+/*!*********************************************************!*\
+  !*** ./src/questionEditors/questionEditorDefinition.ts ***!
+  \*********************************************************/
+
 /*!**********************************************************!*\
   !*** ./src/components/VCalendar/mixins/calendar-base.ts ***!
   \**********************************************************/
@@ -3032,6 +4863,10 @@ and limitations under the License.
   !*** ./src/components/VTreeview/util/filterTreeItems.ts ***!
   \**********************************************************/
 
+/*!**********************************************************!*\
+  !*** ./src/propertyEditors/propertyOneSelectedEditor.ts ***!
+  \**********************************************************/
+
 /*!***********************************************************!*\
   !*** ./src/components/VColorPicker/VColorPickerCanvas.ts ***!
   \***********************************************************/
@@ -3060,6 +4895,18 @@ and limitations under the License.
   !*** ./src/components/VVirtualScroll/VVirtualScroll.sass ***!
   \***********************************************************/
 
+/*!***********************************************************!*\
+  !*** ./src/propertyEditors/propertyDefaultValueEditor.ts ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./src/propertyEditors/propertyUrlConditionEditor.ts ***!
+  \***********************************************************/
+
+/*!***********************************************************!*\
+  !*** ./src/templates/questionEditors/questioneditor.html ***!
+  \***********************************************************/
+
 /*!************************************************************!*\
   !*** ./src/components/VBreadcrumbs/VBreadcrumbsDivider.ts ***!
   \************************************************************/
@@ -3074,6 +4921,10 @@ and limitations under the License.
 
 /*!************************************************************!*\
   !*** ./src/components/VExpansionPanel/VExpansionPanels.ts ***!
+  \************************************************************/
+
+/*!************************************************************!*\
+  !*** ./src/propertyEditors/propertyHtmlConditionEditor.ts ***!
   \************************************************************/
 
 /*!*************************************************************!*\
@@ -3104,12 +4955,24 @@ and limitations under the License.
   !*** ./src/components/VSkeletonLoader/VSkeletonLoader.sass ***!
   \*************************************************************/
 
+/*!*************************************************************!*\
+  !*** ./src/propertyEditors/propertyMultipleValuesEditor.ts ***!
+  \*************************************************************/
+
+/*!*************************************************************!*\
+  !*** ./src/propertyEditors/propertyNestedPropertyEditor.ts ***!
+  \*************************************************************/
+
 /*!**************************************************************!*\
   !*** ./src/components/VColorPicker/VColorPickerPreview.sass ***!
   \**************************************************************/
 
 /*!**************************************************************!*\
   !*** ./src/components/VDataTable/VDataTableHeaderDesktop.ts ***!
+  \**************************************************************/
+
+/*!**************************************************************!*\
+  !*** ./src/property-grid/object-editor-old-table-content.ts ***!
   \**************************************************************/
 
 /*!***************************************************************!*\
@@ -3130,6 +4993,14 @@ and limitations under the License.
 
 /*!****************************************************************!*\
   !*** ./src/components/VDatePicker/mixins/date-picker-table.ts ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./src/property-grid/object-editor-old-table-content.html ***!
+  \****************************************************************/
+
+/*!****************************************************************!*\
+  !*** ./src/property-grid/object-editor-old-table-content.scss ***!
   \****************************************************************/
 
 /*!*****************************************************************!*\
@@ -3164,13 +5035,97 @@ and limitations under the License.
   !*** ./src/components/VCalendar/mixins/calendar-with-intervals.ts ***!
   \********************************************************************/
 
+/*!********************************************************************!*\
+  !*** ./src/propertyEditors/propertyMatrixDropdownColumnsEditor.ts ***!
+  \********************************************************************/
+
 /*!************************************************************************!*\
   !*** ./src/components/VDatePicker/util/createNativeLocaleFormatter.ts ***!
   \************************************************************************/
 
+/*!*************************************************************************!*\
+  !*** ./src/templates/propertyEditors/propertyeditor-triggersitems.html ***!
+  \*************************************************************************/
+
 /*!******************************************************************************!*\
   !*** external {"commonjs":"vue","commonjs2":"vue","amd":"vue","root":"Vue"} ***!
   \******************************************************************************/
+
+/*!********************************************************************************************!*\
+  !*** external {"root":"ko","commonjs2":"knockout","commonjs":"knockout","amd":"knockout"} ***!
+  \********************************************************************************************/
+
+/*!**************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/adorners/image.html ***!
+  \**************************************************************************************************/
+
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/templates/entry.html ***!
+  \***************************************************************************************************/
+
+/*!***************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/utils/accordion.html ***!
+  \***************************************************************************************************/
+
+/*!******************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/components/toolbox.html ***!
+  \******************************************************************************************************/
+
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/adorners/image-items.html ***!
+  \********************************************************************************************************/
+
+/*!********************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/adorners/item-editor.html ***!
+  \********************************************************************************************************/
+
+/*!*********************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/adorners/title-editor.html ***!
+  \*********************************************************************************************************/
+
+/*!**********************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/adorners/title-actions.html ***!
+  \**********************************************************************************************************/
+
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/components/pages-editor.html ***!
+  \***********************************************************************************************************/
+
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/components/toolbox-item.html ***!
+  \***********************************************************************************************************/
+
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/utils/designer-container.html ***!
+  \************************************************************************************************************/
+
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/adorners/question-actions.html ***!
+  \*************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/adorners/flowpanel-actions.html ***!
+  \**************************************************************************************************************/
+
+/*!**************************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/utils/designer-h-container.html ***!
+  \**************************************************************************************************************/
+
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/adorners/rating-item-editor.html ***!
+  \***************************************************************************************************************/
+
+/*!****************************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/adorners/select-items-editor.html ***!
+  \****************************************************************************************************************/
+
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/html-loader?interpolate!./node_modules/val-loader!./src/adorners/select-items-display.html ***!
+  \*****************************************************************************************************************/
+
+/*!*********************************************************************************************************************!*\
+  !*** external {"root":"Survey","commonjs2":"survey-knockout","commonjs":"survey-knockout","amd":"survey-knockout"} ***!
+  \*********************************************************************************************************************/
 
 /**
   * vue-class-component v5.0.0

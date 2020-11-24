@@ -1,7 +1,7 @@
 <template>
     <v-app>
-        <v-card flat>
-            <v-toolbar dark color="primary" flat extended>
+        <v-card text>
+            <v-toolbar dark color="primary" text extended>
                 <v-toolbar-title>Survey Manager</v-toolbar-title>
             </v-toolbar>
             <v-layout row pb-2>
@@ -17,7 +17,7 @@
                                     v-model="$root.snackbar"
                             >
                                 {{ $root.snackbarMsg }}
-                                <v-btn flat color="blue" @click.native="$root.snackbar = false">Close</v-btn>
+                                <v-btn text color="blue" @click.native="$root.snackbar = false">Close</v-btn>
                             </v-snackbar>
                         </v-card-text>
                     </v-card>

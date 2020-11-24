@@ -16,8 +16,8 @@
                 ></v-text-field>
             </v-flex>
             <v-toolbar-items v-if="nameField">
-                <v-btn small flat color="primary" @click.prevent="postEdit">Save</v-btn>
-                <v-btn small flat color="warning" @click.prevent="onCancelEdit">Cancel</v-btn>
+                <v-btn small text color="primary" @click.prevent="postEdit">Save</v-btn>
+                <v-btn small text color="warning" @click.prevent="onCancelEdit">Cancel</v-btn>
             </v-toolbar-items>
         </v-toolbar>
         <survey-builder :json="survey.json" :id="survey.id" v-if="Object.keys(survey).length"></survey-builder>

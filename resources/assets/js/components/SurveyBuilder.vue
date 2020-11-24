@@ -7,22 +7,22 @@
 
 
 <script>
-    import * as SurveyEditor from 'surveyjs-editor'
-    import 'surveyjs-editor/surveyeditor.css';
+    import * as SurveyCreator from 'survey-creator'
+    import 'survey-creator/survey-creator.css';
 
-    import * as SurveyKo from "survey-knockout";
-    import * as widgets from "surveyjs-widgets";
+    //import * as SurveyKo from "survey-knockout";
+    //import * as widgets from "surveyjs-widgets";
 
-    Object.filter = (obj, predicate) =>
-        Object.keys(obj)
-            .filter( key => predicate(obj[key]) )
-            .reduce( (res, key) => Object.assign(res, { [key]: obj[key] }), {} );
+    // Object.filter = (obj, predicate) =>
+    //     Object.keys(obj)
+    //         .filter( key => predicate(obj[key]) )
+    //         .reduce( (res, key) => Object.assign(res, { [key]: obj[key] }), {} );
 
-    const widgetsList = Object.filter(SurveyConfig.widgets, widget => widget === true);
+    // const widgetsList = Object.filter(SurveyConfig.widgets, widget => widget === true);
 
-    Object.keys(widgetsList).forEach(function (widget) {
-        widgets[widget](SurveyKo);
-    });
+    // Object.keys(widgetsList).forEach(function (widget) {
+    //     widgets[widget](SurveyKo);
+    // });
 
     export default {
         name: 'survey-builder',
@@ -35,8 +35,8 @@
         },
         mounted () {
             let editorOptions = SurveyConfig.builder;
-            SurveyEditor.StylesManager.applyTheme(SurveyConfig.builder.theme);
-            this.editor = new SurveyEditor.SurveyEditor('surveyEditorContainer', editorOptions);
+            SurveyCreator.StylesManager.applyTheme(SurveyConfig.builder.theme);
+            this.editor = new SurveyCreator.SurveyCreator('surveyEditorContainer', editorOptions);
             this.editor.text = JSON.stringify(this.surveyData);
             let self = this;
             this.editor.saveSurveyFunc = function () {

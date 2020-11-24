@@ -3,8 +3,10 @@
         <v-toolbar>
             <v-toolbar-title>List of all available surveys</v-toolbar-title>
             <v-spacer></v-spacer>
-            <v-dialog flat v-model="dialog" max-width="500px" content-class="remove-overflow">
-                <v-btn slot="activator" color="primary" dark class="mb-2">New Survey</v-btn>
+            <v-dialog text v-model="dialog" max-width="500px" content-class="remove-overflow">
+                <template v-slot:activator="{ on }">
+                    <v-btn v-on="on" color="primary" dark class="mb-2">New Survey</v-btn>
+                </template>
                 <v-card>
                     <v-card-title>
                         <span class="headline">{{ formTitle }}</span>
@@ -29,8 +31,8 @@
                     </v-card-text>
                     <v-card-actions>
                         <v-spacer></v-spacer>
-                        <v-btn color="blue darken-1" flat @click.native="onCloseModal">Cancel</v-btn>
-                        <v-btn color="blue darken-1" flat @click.native="onSaveModal(editedItem.name)">Save</v-btn>
+                        <v-btn color="blue darken-1" text @click.native="onCloseModal">Cancel</v-btn>
+                        <v-btn color="blue darken-1" text @click.native="onSaveModal(editedItem.name)">Save</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-dialog>
@@ -39,24 +41,24 @@
                 :headers="headers"
                 :items="surveys"
                 :loading="loading"
-                hide-actions
+                hide-default-footer
                 class="elevation-1"
         >
-            <template slot="items" slot-scope="props">
-                <td class="text-sm-left">{{ props.item.id }}</td>
-                <td class="text-sm-left">{{ props.item.name }}</td>
-                <td class="text-sm-left">{{ props.item.created_at}}</td>
+            <template v-slot:item="{ item }">
+                <td class="text-sm-left">{{ item.id }}</td>
+                <td class="text-sm-left">{{ item.name }}</td>
+                <td class="text-sm-left">{{ item.created_at}}</td>
                 <td class="justify-center layout px-0">
-                    <v-btn icon class="mx-0" @click="runSurvey(props.item.slug)">
+                    <v-btn icon class="mx-0" @click="runSurvey(item.slug)">
                         <v-icon color="teal">play_circle_outline</v-icon>
                     </v-btn>
-                    <v-btn icon class="mx-0" @click="showResults(props.item.id)">
+                    <v-btn icon class="mx-0" @click="showResults(item.id)">
                         <v-icon color="indigo">question_answer</v-icon>
                     </v-btn>
-                    <v-btn icon class="mx-0" @click="editItem(props.item.id)">
+                    <v-btn icon class="mx-0" @click="editItem(item.id)">
                         <v-icon color="amber">edit</v-icon>
                     </v-btn>
-                    <v-btn icon class="mx-0" @click="deleteItem(props.item)">
+                    <v-btn icon class="mx-0" @click="deleteItem(item)">
                         <v-icon color="pink">delete</v-icon>
                     </v-btn>
                 </td>
