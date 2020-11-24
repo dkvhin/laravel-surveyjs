@@ -1,12 +1,12 @@
 <?php
 
-namespace AidynMakhataev\LaravelSurveyJs\app\Http\Controllers\API;
+namespace Dkvhin\LaravelSurveyJs\app\Http\Controllers\API;
 
 use Illuminate\Routing\Controller;
-use AidynMakhataev\LaravelSurveyJs\app\Models\Survey;
-use AidynMakhataev\LaravelSurveyJs\app\Http\Resources\SurveyResource;
-use AidynMakhataev\LaravelSurveyJs\app\Http\Requests\CreateSurveyRequest;
-use AidynMakhataev\LaravelSurveyJs\app\Http\Requests\UpdateSurveyRequest;
+use Dkvhin\LaravelSurveyJs\app\Models\Survey;
+use Dkvhin\LaravelSurveyJs\app\Http\Resources\SurveyResource;
+use Dkvhin\LaravelSurveyJs\app\Http\Requests\CreateSurveyRequest;
+use Dkvhin\LaravelSurveyJs\app\Http\Requests\UpdateSurveyRequest;
 
 class SurveyAPIController extends Controller
 {

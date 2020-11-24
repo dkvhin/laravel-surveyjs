@@ -1,19 +1,25 @@
 {
-    "name": "aidynmakhataev/laravelsurveyjs",
-    "description": "Laravel wrapper for surveyjs library",
+    "name": "dkvhin/laravelsurveyjs",
+    "description": "Laravel wrapper for surveyjs library, forked from AidynMakhataev/laravel-surveyjs",
     "license": "MIT",
     "authors": [
+        {
+            "name": "Ervin Musngi",
+            "email": "ervinmusngi@outlook.com",
+            "homepage": "https://github.com/dkvhin"
+        },
         {
             "name": "Aidyn Makhataev",
             "email": "makataev.7@gmail.com",
             "homepage": "https://github.com/AidynMakhataev"
         }
     ],
-    "homepage": "https://github.com/aidynmakhataev/laravelsurveyjs",
+    "homepage": "https://github.com/dkvhin/laravel-surveyjs",
     "keywords": [
-        "Laravel", "LaravelSurveyJs", "surveyjs", "survey manager", "laravel survey", "survey editor", "surveyjs builder", "aidynmakhataev"
+        "Laravel", "LaravelSurveyJs", "surveyjs", "survey manager", "laravel survey", "survey editor", "surveyjs builder", "dkvhin", "dkvhin"
     ],
     "require": {
+        "php": "^7.3",
         "illuminate/support": "^8.1",
         "cviebrock/eloquent-sluggable": "^8.0"
     },
@@ -23,21 +29,21 @@
     },
     "autoload": {
         "psr-4": {
-            "AidynMakhataev\\LaravelSurveyJs\\": "src/"
+            "Dkvhin\\LaravelSurveyJs\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "AidynMakhataev\\LaravelSurveyJs\\Tests\\": "tests"
+            "Dkvhin\\LaravelSurveyJs\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "AidynMakhataev\\LaravelSurveyJs\\LaravelSurveyJsServiceProvider"
+                "Dkvhin\\LaravelSurveyJs\\LaravelSurveyJsServiceProvider"
             ],
             "aliases": {
-                "LaravelSurveyJs": "AidynMakhataev\\LaravelSurveyJs\\Facades\\LaravelSurveyJs"
+                "LaravelSurveyJs": "Dkvhin\\LaravelSurveyJs\\Facades\\LaravelSurveyJs"
             }
         }
     }

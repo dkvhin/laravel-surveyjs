@@ -1,6 +1,6 @@
 <?php
 
-namespace AidynMakhataev\LaravelSurveyJs\app\Models;
+namespace Dkvhin\LaravelSurveyJs\app\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -19,7 +19,7 @@ class SurveyResult extends Model
      */
     public function survey()
     {
-        return $this->belongsTo('AidynMakhataev\LaravelSurveyJs\app\Models\Survey', 'survey_id');
+        return $this->belongsTo('Dkvhin\LaravelSurveyJs\app\Models\Survey', 'survey_id');
     }
 
     /**

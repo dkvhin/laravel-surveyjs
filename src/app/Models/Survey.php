@@ -1,6 +1,6 @@
 <?php
 
-namespace AidynMakhataev\LaravelSurveyJs\app\Models;
+namespace Dkvhin\LaravelSurveyJs\app\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
@@ -46,6 +46,6 @@ class Survey extends Model
      */
     public function results()
     {
-        return $this->hasMany('AidynMakhataev\LaravelSurveyJs\app\Models\SurveyResult', 'survey_id');
+        return $this->hasMany('Dkvhin\LaravelSurveyJs\app\Models\SurveyResult', 'survey_id');
     }
 }

@@ -3,7 +3,7 @@
 
 Route::group(
     [
-        'namespace'     =>  'AidynMakhataev\LaravelSurveyJs\app\Http\Controllers\API',
+        'namespace'     =>  'Dkvhin\LaravelSurveyJs\app\Http\Controllers\API',
         'middleware'    =>  config('survey-manager.api_middleware'),
         'prefix'        =>  config('survey-manager.api_prefix'),
     ],

@@ -1,9 +1,9 @@
 <?php
 
-namespace AidynMakhataev\LaravelSurveyJs\app\Http\Controllers;
+namespace Dkvhin\LaravelSurveyJs\app\Http\Controllers;
 
 use Illuminate\Routing\Controller;
-use AidynMakhataev\LaravelSurveyJs\app\Models\Survey;
+use Dkvhin\LaravelSurveyJs\app\Models\Survey;
 
 class SurveyController extends Controller
 {

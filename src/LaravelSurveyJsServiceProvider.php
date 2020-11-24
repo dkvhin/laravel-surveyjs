@@ -1,6 +1,6 @@
 <?php
 
-namespace AidynMakhataev\LaravelSurveyJs;
+namespace Dkvhin\LaravelSurveyJs;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,7 @@ class LaravelSurveyJsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'aidynmakhataev');
+        // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'dkvhin');
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'survey-manager');
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->loadRoutesFrom(__DIR__.'/routes/api.php');
