@@ -40,12 +40,9 @@ Please see the [changelog](changelog.md) for more information on what has change
 
 Please see [contributing.md](contributing.md) for details and a todolist.
 
-## Security
-
-If you discover any security related issues, please email makataev.7@gmail.com instead of using the issue tracker.
-
 ## Credits
 
+- [Ervin Musngi][link-author]
 - [Aidyn Makhataev][link-author]
 - [All Contributors][link-contributors]
 

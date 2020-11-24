@@ -1,6 +1,6 @@
 {
     "name": "dkvhin/laravelsurveyjs",
-    "description": "Laravel wrapper for surveyjs library, forked from AidynMakhataev/laravel-surveyjs",
+    "description": "Laravel wrapper for surveyjs library, Only Laravel 8 is supported",
     "license": "MIT",
     "authors": [
         {
