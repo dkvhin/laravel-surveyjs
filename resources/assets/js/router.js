@@ -18,6 +18,6 @@ const routes = [
 
 export default new VueRouter({
     mode: 'history',
-    base: '/' + SurveyConfig.admin_prefix + '/survey',
+    base: SurveyConfig.admin_prefix,
     routes
 });
