@@ -10,20 +10,6 @@
     import * as SurveyCreator from 'survey-creator'
     import 'survey-creator/survey-creator.css';
 
-    //import * as SurveyKo from "survey-knockout";
-    //import * as widgets from "surveyjs-widgets";
-
-    // Object.filter = (obj, predicate) =>
-    //     Object.keys(obj)
-    //         .filter( key => predicate(obj[key]) )
-    //         .reduce( (res, key) => Object.assign(res, { [key]: obj[key] }), {} );
-
-    // const widgetsList = Object.filter(SurveyConfig.widgets, widget => widget === true);
-
-    // Object.keys(widgetsList).forEach(function (widget) {
-    //     widgets[widget](SurveyKo);
-    // });
-
     export default {
         name: 'survey-builder',
         props: ['json', 'id'],
@@ -37,18 +23,30 @@
             let editorOptions = SurveyConfig.builder;
             SurveyCreator.StylesManager.applyTheme(SurveyConfig.builder.theme);
             this.editor = new SurveyCreator.SurveyCreator('surveyEditorContainer', editorOptions);
+            if(SurveyConfig.onSurveyBeforeBuild) {
+                SurveyConfig.onSurveyBeforeBuild(this.editor);
+            }
             this.editor.text = JSON.stringify(this.surveyData);
-            let self = this;
+            
+            if(SurveyConfig.onSurveyBuilderCompleted) {
+                SurveyConfig.onSurveyBuilderCompleted(this.editor);
+            }
+            var self = this;
             this.editor.saveSurveyFunc = function () {
-                axios.put('/survey/' + self.id, {json: JSON.parse(this.text)})
-                    .then((response) => {
-                        self.editor.text = JSON.stringify(response.data.data.json);
-                        self.$root.snackbar = true;
-                        self.$root.snackbarMsg = response.data.message;
-                    })
-                    .catch((error) => {
-                        console.error(error.response);
-                    })
+                if(!SurveyConfig.saveSurveyCallBack) {
+                    axios.put('/survey/' + self.id, {json: JSON.parse(this.text)})
+                        .then((response) => {
+                            self.editor.text = JSON.stringify(response.data.data.json);
+                            self.$root.snackbar = true;
+                            self.$root.snackbarMsg = response.data.message;
+                        })
+                        .catch((error) => {
+                            console.error(error.response);
+                        })
+                } else {
+                    SurveyConfig.saveSurveyCallBack(self.id, JSON.parse(this.text));
+                }
+               
             };
         }
     }
