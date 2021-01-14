@@ -27,19 +27,29 @@
         components: {
             Survey
         },
-        props: ['surveyData'],
+        props: {
+            surveyData: {
+                default: window.SurveyData
+            },
+            liveSessionId: {
+                default: window.LiveSessionId
+            },
+
+        },
         data () {
             return {
                 survey: {}
             }
         },
         created () {
+            console.log('a');
             this.survey = new SurveyVue.Model(this.surveyData.json)
         },
         mounted () {
+
             this.survey.onComplete.add((result) => {
                 let url = `/survey/${this.surveyData.id}/result`
-                axios.post(url, {json: result.data})
+                axios.post(url, {json: result.data, live_session_id: this.liveSessionId})
                     .then((response) => {
                         console.log(response)
                     })

@@ -28,13 +28,14 @@ class SurveyResultAPIController extends Controller
     public function store(Survey $survey, Request $request)
     {
         $request->validate([
-            'json'  =>  'required',
+            'json'              => 'required',
+            'live_session_id'   => 'required'
         ]);
 
         $result = $survey->results()->create([
-            'json'          =>  $request->input('json'),
-            'user_id'       =>  \Auth::check() ? \Auth::id() : null,
-            'ip_address'    =>  $request->ip(),
+            'json'              =>  $request->input('json'),
+            'live_session_id'   =>  $request->input('live_session_id'),
+            'ip_address'        =>  $request->ip(),
         ]);
 
         return response()->json([
